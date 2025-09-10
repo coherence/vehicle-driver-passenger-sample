@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b91f942a5214496b0e11eaedb54c36, type: 3}
+  m_Name: RuntimeSettings
+  m_EditorClassIdentifier: 
+  schemaID: 212df3adcae7c50c524434f046c1a2bd3afbd777
+  versionInfo: {fileID: 11400000, guid: 2191b6f902c97477baa32a7919010503, type: 2}
+  runtimeKey: 8a9ae1d9a6a64bd3bc6a508c76fb6a0e
+  simulatorSlug: 
+  localHost: 127.0.0.1
+  localWorldUDPPort: 32001
+  localWorldWebPort: 32002
+  remoteWebPort: 443
+  localRoomsUDPPort: 42001
+  localRoomsWebPort: 42002
+  apiPort: 64001
+  worldsAPIPort: 64002
+  localHttpServerHost: localhost
+  localHttpServerPort: 42006
+  localDevelopmentMode: 1
+  useDebugStreams: 0
+  organizationID: 
+  projectID: cgm44blbo1huhjg1ebr0
+  projectName: Live Demo
+  organizationName: 
+  transportType: 0
+  transportConfiguration: 0
+  advancedSettings:
+    ThreadResumer:
+      Enabled: 0
+      SearchIntervalMs: 50
+      LongSearchWarnThresholdMs: 50
+      WarnOnSuspension: 1
+  replicationServerToken: 
+  playApiEndpoint: https://api.prod.coherence.io/v1/play
+  schemas:
+  - {fileID: -1758743643018166929, guid: 266a112c2c9e941a58a87a48e7a4f8cb, type: 3}
+  - {fileID: -1758743643018166929, guid: 8b215f8d1bb1f4912911da9fb53c3fac, type: 3}
+  extraSchemas: []
+  defaultTransportMode: 0
+  defaultTransportModeMigrated: 1
+  defaultAuthorityTransferType: 2
+  simulatorLockTargetFramerate: 1
+  simulatorTargetFramerate: 30

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b58ca8e478745dfab801a85671962e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showHubModuleQuickHelp: 1
+  portalToken: 
+  worldUDPPort: 32001
+  worldWebPort: 32002
+  roomsUDPPort: 42001
+  roomsWebPort: 42002
+  sendFrequency: 20
+  recvFrequency: 60
+  localRoomsCleanupTimeSeconds: 120
+  localWorldHostAuthority: 0
+  rsConsoleLogLevel: 2
+  rsLogToFile: 0
+  rsLogFilePath: Logs/rs_logs.txt
+  rsFileLogLevel: 1
+  reportAnalytics: 1
+  RSBundlingEnabled: 0
+  keepConnectionAlive: 0
+  activeSchemas: []
+  organization:
+    id: cgm448dbo1huhjg1eblg
+    name: My First Org
+    slug: my-first-org
+    projects:
+    - id: cgm44blbo1huhjg1ebr0
+      portal_token: 5a9d881292ba4c34bbf3be9f60d91a3d
+      runtime_key: 8a9ae1d9a6a64bd3bc6a508c76fb6a0e
+      name: Live Demo
+    - id: cka5h98glpukcf9ds710
+      portal_token: b35f3415ba2f4459841916b23d1a3a55
+      runtime_key: 9389132a25074563a39d562135d21d76
+      name: Server-authoritative Input
+  multipleProjects: []

@@ -1,0 +1,61 @@
+component _21cb728274153f54c8abde62f5c205eb_1259671932668666791 [id "18"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _21cb728274153f54c8abde62f5c205eb_1720866131325391453 [id "19"]
+  rotation Quaternion [bits "32"]
+
+component _21cb728274153f54c8abde62f5c205eb_2050001688815156589 [id "20"]
+  rotation Quaternion [bits "32"]
+
+component _21cb728274153f54c8abde62f5c205eb_206740399366135098 [id "21"]
+  rotation Quaternion [bits "32"]
+
+component _21cb728274153f54c8abde62f5c205eb_2951459172528959962 [id "22"]
+  position Vector3 [sim-frames "true", compression "None"]
+
+component _21cb728274153f54c8abde62f5c205eb_4470614517599846282 [id "23"]
+  position Vector3 [sim-frames "true", compression "None"]
+
+component _21cb728274153f54c8abde62f5c205eb_5564519037632416404 [id "24"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _21cb728274153f54c8abde62f5c205eb_6631482869218822685 [id "25"]
+  position Vector3 [sim-frames "true", compression "None"]
+
+component _21cb728274153f54c8abde62f5c205eb_7111738075838154005 [id "26"]
+  hasDriver Bool [bits "1"]
+  hasPassenger Bool [bits "1"]
+
+component _21cb728274153f54c8abde62f5c205eb_756833534844681836 [id "27"]
+  rotation Quaternion [bits "32"]
+
+component _21cb728274153f54c8abde62f5c205eb_7765446909568211354 [id "28"]
+  position Vector3 [sim-frames "true", compression "None"]
+
+component _21cb728274153f54c8abde62f5c205eb_805111976255883772 [id "29"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _21cb728274153f54c8abde62f5c205eb_8313270696784286322 [id "30"]
+  rotation Quaternion [bits "32", sim-frames "true"]
+
+component _a6f62748104f3194aace021743ab9cc0_1680387227265687212 [id "31"]
+  path String [bits "6"]
+  pathDirtyCounter Int [bits "32", range-min "-2147483648", range-max "2147483647"]
+
+component _a6f62748104f3194aace021743ab9cc0_437266469125202482 [id "32"]
+  IsPassenger Bool [bits "1"]
+  IsDriving Bool [bits "1"]
+  MotionSpeed Float [range-min "-9223372036854775808", range-max "9223372036854775807", compression "None"]
+  FreeFall Bool [bits "1"]
+  Grounded Bool [bits "1"]
+  Jump Bool [bits "1"]
+  Speed Float [range-min "-9223372036854775808", range-max "9223372036854775807", compression "None"]
+
+command _21cb728274153f54c8abde62f5c205eb_5dc56a424798449c8671b425fa6ac326 [id "6", routing "All"]
+  requester Entity [client-type "Coherence.Toolkit.CoherenceSync"]
+
+command _21cb728274153f54c8abde62f5c205eb_7aacc70bdeb04985a3583107060de8f2 [id "7", routing "All"]
+
+command _a6f62748104f3194aace021743ab9cc0_6dd9a86c087541c99ecb256252565a2f [id "8", routing "All"]
+  canEnter Bool 
+
